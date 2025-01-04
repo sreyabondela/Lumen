@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telecom Inventory Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Telecom Inventory Management System</h1>
+      <p>Welcome to the Telecom Inventory System!</p>
+      <nav>
+        <ul>
+          <li><a href="#product-management">Product Management</a></li>
+          <li><a href="#supplier-management">Supplier Management</a></li>
+          <li><a href="#user-management">User Management</a></li>
+          <li><a href="#alerts">Alerts</a></li>
+          <li><a href="#reports">Reports</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="product-management">
+      <div class="container">
+        <h2>Product Management</h2>
+        <p>Manage products and their stock levels efficiently.</p>
+        <div id="product-list"></div> <!-- Dynamic product list -->
+        <button onclick="loadProducts()">Load Products</button>
+      </div>
+    </section>
+
+    <section id="supplier-management">
+      <div class="container">
+        <h2>Supplier Management</h2>
+        <p>Track and manage supplier information and order history.</p>
+        <button>Learn More</button>
+      </div>
+    </section>
+
+    <section id="user-management">
+      <div class="container">
+        <h2>User Management</h2>
+        <p>Administer users, assign roles, and manage permissions.</p>
+        <button>Learn More</button>
+      </div>
+    </section>
+
+    <section id="alerts">
+      <div class="container">
+        <h2>Alerts and Notifications</h2>
+        <p>Receive real-time alerts for stock levels and overdue orders.</p>
+        <div id="stock-alerts"></div> <!-- Dynamic alerts will be displayed here -->
+      </div>
+    </section>
+
+    <section id="reports">
+      <div class="container">
+        <h2>Reports and Analytics</h2>
+        <p>Generate reports to track inventory and supplier performance.</p>
+        <button>Learn More</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Lumen Technologies. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
